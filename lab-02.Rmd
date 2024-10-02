@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
-author: "Team Name: User1, User2, User3 and User4"
+author: "Team Name: User1, User2, User3, User4, User5 and User6"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -16,19 +16,19 @@ library(readxl)
 ## Load & join data sets
 
 ```{r load-data, message = FALSE}
-# Member 1 write code to load File 1 data here:
+# Member 2 (pair 1) write code to load File 1 data here:
 
 
 
-# Member 2 write code to load File 2 data here:
+# Member 4 (pair 2) write code to load File 2 data here:
 
 
 
-# Member 3 write code to load File 3 data here:
+# Member 6 (pair 3) write code to load File 3 data here:
 
 
 
-# Member 4 write code to load File 4 data here:
+# Member 1 (pair 1) write code to load File 4 data here:
 
 
 
@@ -37,19 +37,22 @@ library(readxl)
 
 
 ```{r join-data, message = FALSE}
-# Member 1 write code to create object 'plastic_data_all':
+# Member 2 (pair 1) write code to create object 'plastic_data_all':
 
 
 
-# Member 2 write code to join your data to 'plastic_data_all':
+
+# Member 4 (pair 2) write code to join your data to 'plastic_data_all':
 
 
 
-# Member 3 write code to join your data to 'plastic_data_all':
+
+# Member 6 (pair 3) write code to join your data to 'plastic_data_all':
 
 
 
-# Member 4 write code to join your data to 'plastic_data_all':
+
+# Member 1 (pair 1) write code to join your data to 'plastic_data_all':
 
 
 
@@ -57,7 +60,7 @@ library(readxl)
 
 
 ```{r print-data, message = FALSE}
-# Member 1 adds code here to view the first 10 rows of 'plastic_data_all'
+# Member 2 (pair 1) adds code here to view the first 10 rows of 'plastic_data_all'
 
 
 
