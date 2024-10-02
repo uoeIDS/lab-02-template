@@ -1,43 +1,108 @@
 ---
-title: "Lab 02 - Under Constuction"
-author: "INSERT YOUR NAME HERE"
+title: "Lab 02 - Global plastic waste"
+author: "Team Name: User1, User2, User3 and User4"
 date: "`r Sys.Date()`"
 output: html_document
 ---
 
-```{r load-packages, message = FALSE, warning=FALSE, echo = FALSE}
-library(emo)
-#devtools::install_github("hadley/emo")
+### Load packages and data
+
+```{r load-packages, message = FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
 ```
 
-This template repository for the IDS lab is currently under construction. 👷🔨
 
-Please return back to this page later in the course.
+## Load & join data sets
 
-
-## In the meantime...
-
-Have a look at the following data from the `datasauRus` package. Each data set has the same mean, variance and correlation values, but they all look different!
+```{r load-data, message = FALSE}
+# Member 1 write code to load File 1 data here:
 
 
 
-```{r datasuRus, message = FALSE, fig.height=10}
-library(datasauRus)
-library(tidyverse)
-library(ggplot2)
+# Member 2 write code to load File 2 data here:
 
-ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
-    geom_point()+
-    theme(legend.position = "none")+
-    facet_wrap(~dataset, ncol = 3)
 
-datasaurus_dozen %>% 
-    group_by(dataset) %>% 
-    summarize(
-      mean_x    = mean(x),
-      mean_y    = mean(y),
-      std_dev_x = sd(x),
-      std_dev_y = sd(y),
-      corr_x_y  = cor(x, y)
-    )
+
+# Member 3 write code to load File 3 data here:
+
+
+
+# Member 4 write code to load File 4 data here:
+
+
+
+```
+
+
+
+```{r join-data, message = FALSE}
+# Member 1 write code to create object 'plastic_data_all':
+
+
+
+# Member 2 write code to join your data to 'plastic_data_all':
+
+
+
+# Member 3 write code to join your data to 'plastic_data_all':
+
+
+
+# Member 4 write code to join your data to 'plastic_data_all':
+
+
+
+```
+
+
+```{r print-data, message = FALSE}
+# Member 1 adds code here to view the first 10 rows of 'plastic_data_all'
+
+
+
+```
+
+
+
+## Exercises
+
+### Ex 1.
+
+```{r Ex1, message = FALSE}
+# Write your code here to answer exercise 1
+
+
+
+```
+
+
+
+### Ex 2.
+
+```{r Ex2, message = FALSE}
+# Write your code here to answer exercise 2
+
+
+
+```
+
+
+### Ex 3.
+
+```{r Ex3, message = FALSE}
+# Write your code here to answer exercise 3
+
+
+
+```
+
+
+### Ex 4.
+
+```{r Ex4, message = FALSE}
+# Write your code here to answer exercise 4
+
+
+
 ```
