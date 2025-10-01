@@ -1,6 +1,6 @@
 ---
 title: "Lab 02 - Global plastic waste"
-author: "Team Name: User1, User2, User3, User4, User5 and User6"
+author: "Team Name: User1, User2, User3, User4"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -24,11 +24,11 @@ library(readxl)
 
 
 
-# Member 6 (pair 3) write code to load File 3 data here:
+# Member 1 (pair 1) write code to load File 3 data here:
 
 
 
-# Member 1 (pair 1) write code to load File 4 data here:
+# Member 3 (pair 2) write code to load File 4 data here:
 
 
 
@@ -47,12 +47,12 @@ library(readxl)
 
 
 
-# Member 6 (pair 3) write code to join your data to 'plastic_data_all':
-
-
-
-
 # Member 1 (pair 1) write code to join your data to 'plastic_data_all':
+
+
+
+
+# Member 3 (pair 2) write code to join your data to 'plastic_data_all':
 
 
 
